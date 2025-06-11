@@ -76,5 +76,5 @@ function getBotResponse(input) {
         "Madharchod": "teri maa ki chut madharchod... robotic lund teri babli gand mai dal dunga bsdk",
 
     };
-    return responses[input.toLowerCase()] || "Sorry, I don't understand that, Can you please explain me a bit!";
+    return responses[input.toLowerCase()] || "Sorry, I don't understand that, I have some selected prompts as I am in my training phase!";
 }
